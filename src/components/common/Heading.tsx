@@ -1,4 +1,5 @@
 import { ReactNode } from 'react';
+import type { JSX as JSXNamespace } from 'react';
 import { cn } from '@/lib/utils';
 
 interface HeadingProps {
@@ -9,7 +10,7 @@ interface HeadingProps {
 }
 
 export function Heading({ level, children, className, size }: HeadingProps) {
-  const Component = `h${level}` as keyof JSX.IntrinsicElements;
+  const Component = `h${level}` as keyof JSXNamespace.IntrinsicElements;
   
   const defaultSizes = {
     1: '3xl',
@@ -18,7 +19,7 @@ export function Heading({ level, children, className, size }: HeadingProps) {
     4: 'lg',
     5: 'md',
     6: 'sm'
-  };
+  } as const;
 
   const actualSize = size || defaultSizes[level];
 
@@ -29,7 +30,7 @@ export function Heading({ level, children, className, size }: HeadingProps) {
     xl: 'text-3xl font-bold',
     '2xl': 'text-4xl font-bold',
     '3xl': 'text-5xl font-bold'
-  };
+  } as const;
 
   return (
     <Component className={cn(
