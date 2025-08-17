@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { useCallback, useState } from 'react';
 import { Heading } from '@/components/common/Heading';
 import { Text } from '@/components/common/Text';
 import { Button } from '@/components/common/Button';
@@ -10,6 +11,8 @@ import { Locale } from '@/i18n/config';
 import { useInView } from '@/lib/useInView';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faUsers, faBed, faRulerCombined, faBath, faWifi, faMugHot, faSnowflake, faTv, faDoorOpen, faUtensils, faShower, faFire, faShirt, faVolumeXmark, faBaby, faUmbrellaBeach, faTree } from '@fortawesome/free-solid-svg-icons';
+import Lightbox from '@/components/gallery/Lightbox';
+import type { GalleryImage } from '@/lib/gallery';
 
 interface RoomDetailProps {
   locale: Locale;
@@ -70,6 +73,27 @@ export function RoomDetail({ locale, dictionary, slug }: RoomDetailProps) {
     ...commonRoomImages,
     ...commonAreaImages,
   ];
+
+  // Prepare lightbox images in required shape
+  const lightboxImages: GalleryImage[] = galleryImages.map((path) => {
+    const trimmed = path.startsWith('/') ? path.slice(1) : path;
+    const category = trimmed.split('/')[0] || '';
+    const thumbProps = getOptimizedImageProps(path, 640, 'fill');
+    const fullProps = getOptimizedImageProps(path, 1920, 'sized');
+    return { originalPath: path, category, thumbProps, fullProps } as GalleryImage;
+  });
+
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const openAt = useCallback((index: number) => {
+    setCurrentIndex(index);
+    setIsLightboxOpen(true);
+  }, []);
+
+  const onClose = useCallback(() => setIsLightboxOpen(false), []);
+  const onPrev = useCallback(() => setCurrentIndex((i) => (i - 1 + lightboxImages.length) % lightboxImages.length), [lightboxImages.length]);
+  const onNext = useCallback(() => setCurrentIndex((i) => (i + 1) % lightboxImages.length), [lightboxImages.length]);
 
   // Unified curated amenities for all rooms
   const amenities: { icon: typeof faTv; label: string }[] = [
@@ -171,13 +195,29 @@ export function RoomDetail({ locale, dictionary, slug }: RoomDetailProps) {
           {galleryImages.map((src, i) => {
             const props = getOptimizedImageProps(src, 640, 'fill');
             return (
-              <div key={`${src}-${i}`} className="relative aspect-square overflow-hidden rounded-lg group">
+              <button
+                key={`${src}-${i}`}
+                type="button"
+                onClick={() => openAt(i)}
+                className="relative aspect-square overflow-hidden rounded-lg group cursor-zoom-in focus:outline-none focus:ring-2 focus:ring-primary/60 focus:ring-offset-2 focus:ring-offset-background"
+                aria-label={`Open image ${i + 1}`}
+              >
                 <Image {...props} alt={`${r.name || slug} image ${i + 1}`} fill className="object-cover transition-transform duration-500 motion-safe:group-hover:scale-105" placeholder={props.blurDataURL ? 'blur' : 'empty'} />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/15 transition-colors" />
-              </div>
+              </button>
             );
           })}
         </div>
+        {isLightboxOpen && (
+          <Lightbox
+            images={lightboxImages}
+            index={currentIndex}
+            dictionary={dictionary}
+            onClose={onClose}
+            onPrev={onPrev}
+            onNext={onNext}
+          />
+        )}
       </div>
     </div>
   );

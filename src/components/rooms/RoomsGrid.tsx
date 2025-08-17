@@ -27,9 +27,9 @@ export function RoomsGrid({ locale, dictionary }: RoomsGridProps) {
   const { ref: gridRef, inView: gridInView } = useInView<HTMLDivElement>({ threshold: 0.1, once: true });
 
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       {/* soft radial backdrop */}
-      <div className="pointer-events-none absolute left-1/2 top-0 -z-10 h-[700px] w-[1400px] -translate-x-1/2 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.04),transparent_60%)]" />
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[700px] bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.04),transparent_60%)]" />
 
       <div
         ref={headingRef}

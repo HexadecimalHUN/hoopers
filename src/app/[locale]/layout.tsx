@@ -69,7 +69,7 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
   const dictionary = await getDictionary(locale);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-x-hidden">
       <Header locale={locale} dictionary={dictionary} />
       <main className="flex-1">
         {children}

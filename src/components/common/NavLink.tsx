@@ -12,7 +12,16 @@ interface NavLinkProps {
 
 export function NavLink({ href, children, className }: NavLinkProps) {
   const pathname = usePathname();
-  const isActive = pathname === href || (href !== '/' && pathname.startsWith(href));
+  // Active logic:
+  // - Home (locale-root) should be active only on exact match
+  // - Other links active if exact match or when pathname starts with href plus a segment boundary
+  const isHomeLike = /^\/[a-z]{2}(?:\/[a-z]{2})?$/.test(href) || /^\/[a-z]{2}$/.test(href);
+  let isActive = false;
+  if (isHomeLike) {
+    isActive = pathname === href;
+  } else {
+    isActive = pathname === href || pathname.startsWith(`${href}/`);
+  }
 
   return (
     <Link

@@ -53,9 +53,9 @@ export function RoomsPreview({ locale, dictionary }: RoomsPreviewProps) {
 
   return (
     <Section background="surface" padding="xl">
-      <div className="relative">
+      <div className="relative overflow-hidden">
         {/* subtle radial background behind grid */}
-        <div className="pointer-events-none absolute left-1/2 top-12 -z-10 h-[600px] w-[1200px] -translate-x-1/2 bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.04),transparent_60%)]"></div>
+        <div className="pointer-events-none absolute inset-x-0 top-12 -z-10 h-[600px] bg-[radial-gradient(ellipse_at_center,rgba(0,0,0,0.04),transparent_60%)]"></div>
 
         <div
           ref={headingRef}
