@@ -1,0 +1,207 @@
+{
+  "nav": {
+    "home": "Főoldal",
+    "rooms": "Szobáink",
+    "gallery": "Galéria",
+    "about": "Rólunk",
+    "contact": "Kapcsolat"
+  },
+  "hero": {
+    "title": "Üdvözöljük a Hoopers Vendégházban",
+    "title1": "Üdvözöli a",
+    "title2": "Hoopers",
+    "title3": "Vendégház",
+    "badge": "Prémium vendégház Egerben",
+    "availableNow": "Most elérhető",
+    "subtitle": "Tapasztalja meg Eger varázslatos hangulatát modern vendégházunkban",
+    "bookingCom": "Foglalás Booking.com",
+    "szallasHu": "Foglalás Szallas.hu",
+    "callUs": "Hívjon minket",
+    "emailUs": "Írjon nekünk",
+    "guestRating": "Vendégértékelés"
+  },
+  "rooms": {
+    "title": "Szobáink",
+    "subtitle": "Válasszon kényelmes szobáink közül",
+    "room1": {
+      "name": "2+1 ágyas szoba",
+      "description": "Ideális kisebb családok vagy baráti társaságok számára",
+      "longDescription": "Barátságos, világos szoba kétszemélyes ággyal és kényelmes kanapéval – tökéletes rövidebb és hosszabb tartózkodáshoz is.",
+      "shortCta": "Válasszon kényelmes szobáink közül"
+    },
+    "room2": {
+      "name": "2+1+1 ágyas szoba",
+      "description": "Tágas szoba nagyobb családok számára",
+      "longDescription": "Több férőhelyes, tágas szoba modern felszereltséggel és praktikus elrendezéssel.",
+      "shortCta": "Kényelmes, tágas pihenés Egerben"
+    },
+    "room3": {
+      "name": "Családi szoba",
+      "description": "Kényelmes és tágas családi szoba",
+      "longDescription": "Családbarát szoba bőséges térrel, ahol mindenki kényelmesen pihenhet.",
+      "shortCta": "Családok kényelmes választása"
+    },
+    "details": {
+      "overviewTitle": "Áttekintés",
+      "capacity": "Férőhely",
+      "beds": "Ágytípus",
+      "beds_1s_1d": "1 egyszemélyes ágy + 1 franciaágy",
+      "beds_2s_1d": "2 egyszemélyes ágy + 1 franciaágy",
+      "beds_3s_1d": "3 egyszemélyes ágy + 1 franciaágy",
+      "size": "Méret",
+      "sizeUnitM2": "m²",
+      "bathroom": "Fürdőszoba",
+      "privateBathroom": "Saját, fürdőszobás",
+      "amenitiesTitle": "Szolgáltatások",
+      "wifi": "Ingyenes Wi‑Fi",
+      "airConditioning": "Légkondicionálás",
+      "tv": "TV",
+      "kitchenette": "Konyhasarok",
+      "sharedKitchen": "Közös konyha",
+      "shower": "Fürdőkád vagy zuhanyzó",
+      "coffeeTea": "Kávé/tea készítő",
+      "privateEntrance": "Saját bejárat",
+      "wardrobe": "Gardrób/szekrény",
+      "heating": "Fűtés",
+      "soundproofing": "Hangszigetelés",
+      "flatScreenTv": "Síkképernyős TV",
+      "innerCourtyardView": "Belső udvari kilátás",
+      "freeCot": "Ingyenes babaágy kérésre",
+      "terrace": "Terasz",
+      "bookNow": "Foglalás",
+      "galleryTitle": "Galéria"
+    },
+    "viewRoom": "Szoba megtekintése",
+    "features": "Felszereltség",
+    "bookNow": "Foglaljon most",
+    "viewAllRooms": "Összes szoba"
+  },
+  "gallery": {
+    "title": "Galéria",
+    "subtitle": "Tekintse meg vendégházunk és környékének szépségeit",
+    "viewAll": "Összes kép megtekintése",
+    "exterior": "Külső",
+    "extra": "További képek",
+    "all": "Összes"
+  },
+  "about": {
+    "history": {
+      "title": "Történet, örökség és kapcsolat Egerrel",
+      "paragraph1": "2020 januárja óta szeretettel várjuk vendégeinket gondosan kialakított, hotel minőségű ágyakkal felszerelt szobáinkkal és otthonos, szívből jövő vendéglátással. Vendégházunkban 6 szoba található, mindegyik saját zuhanyzós fürdőszobával és WC‑vel; összesen akár 20 fő kényelmes elhelyezésére alkalmas.",
+      "paragraph2": "A két szinten elhelyezkedő szobák közül 4 szoba 1 franciaággyal és 1 egyszemélyes ággyal, 2 családi szoba 1 franciaággyal és 2 egyszemélyes fekvőhellyel rendelkezik (a nagyobbik pótágyazható). Mindkét szinten jól felszerelt konyha található, a felső szinten közös étkező biztosít kényelmes teret akár csoportoknak is. Minden szobában saját hűtő és síkképernyős TV, a legtöbbben légkondicionálás; a teljes házban ingyenes Wi‑Fi."
+    },
+    "heritage": { "title": "Örökség", "description": "Hagyományokban gyökerezve, az idő formálta." },
+    "connection": { "title": "Kapcsolat Egerrel", "description": "Történelmi belváros 800 méterre (5 perc séta), a Szépasszony-völgy 1,2 km – a város szíve karnyújtásnyira." },
+    "wine": { "title": "Borkultúra", "description": "A Szépasszony-völgy hangulata és a híres egri borok élménye kíséri a pihenést." },
+    "location": { "title": "Kényelem & Felszereltség", "description": "Ingyenes parkoló az épület előtt; minden szobában hűtő, síkképernyős TV; jól felszerelt konyhák és közös étkező; ingyenes Wi‑Fi; több szobában légkondicionálás." },
+    "gallery": { "title": "Pillanatok a Hoopers körül" },
+    "cta": { "title": "Készen áll Eger élményére velünk?", "viewRooms": "Szobáink", "contactUs": "Kapcsolat" },
+    "bookNow": { "title": "Foglalja le szállását most" },
+    "title": "Rólunk",
+    "subtitle": "Ismerje meg történetünket",
+    "readMore": "Részletek",
+    "features": {
+      "rooms": {
+        "title": "Kényelmes szobák",
+        "description": "Gondosan megtervezett terek modern felszereltséggel és otthonos részletekkel."
+      },
+      "location": {
+        "title": "Kiváló elhelyezkedés",
+        "description": "Pár lépésre Eger történelmi látnivalóitól, kávézóitól és fürdőitől."
+      },
+      "service": {
+        "title": "Kiemelkedő szolgáltatás",
+        "description": "Barátságos, figyelmes vendéglátás az Ön igényeire szabva."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Vegye fel velünk a kapcsolatot",
+    "address": "Cím",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "addressValue": "Bem tábornok tér 2, Eger",
+    "phoneValue": "+36 30 925 3760",
+    "emailValue": "hoopersguesthouse@gmail.com"
+  },
+  "privacy": {
+    "title": "Adatvédelmi tájékoztató",
+    "updated": "Verzió: 2024. február",
+    "toc": {
+      "intro": "Bevezetés",
+      "whyHow": "Miért és hogyan kezeljük a személyes adatait?",
+      "legal": "Milyen jogalapon kezeljük a személyes adatait?",
+      "data": "Milyen személyes adatokat gyűjtünk és kezelünk tovább?",
+      "retention": "Meddig őrizzük meg a személyes adatait?",
+      "security": "Hogyan védjük és óvjuk a személyes adatait?",
+      "access": "Kik férhetnek hozzá az adataihoz és kinek továbbítjuk azokat?",
+      "rights": "Milyen jogai vannak és hogyan élhet ezekkel?",
+      "contacts": "Kapcsolattartási adatok",
+      "moreInfo": "Hol talál részletesebb információt?"
+    },
+    "sections": {
+      "intro": [
+        "Jelen adatkezelési tájékoztató a személyes adatok kezeléséről és védelméről ad felvilágosítást.",
+        "Adatkezelési művelet: Közösségi média tevékenységek a Tolmácsolási Főigazgatóságon (DG Interpretation)",
+        "Adatkezelő: DG Interpretation, SCIC.01 „Stratégia, politika és kommunikáció” egység",
+        "Nyilvántartási hivatkozás: DPR-EC-08666",
+        "Az Európai Bizottság elkötelezett a személyes adatok védelme mellett a (EU) 2018/1725 rendeletnek megfelelően.",
+        "Az adatkezelési tájékoztató bemutatja az adatkezelés okát, módját, a védelem biztosítását, a felhasználás módját és az érintettek jogait, valamint a kapcsolattartókat.",
+        "A jelen tájékoztató a SCIC.01 egység által végzett „Közösségi média tevékenységek” adatkezelésére vonatkozik."
+      ],
+      "whyHow": [
+        "A SCIC.01 egység személyes adatokat kezel a DG Interpretation vállalati közösségi média csatornáinak működtetéséhez és a felhasználói reakciók elemzéséhez.",
+        "Az adatkezelés a felhasználók önkéntes regisztrációját követi; az elemzés aggregált statisztikákra és nyilvánosan elérhető bejegyzésekre támaszkodik a platformok feltételei szerint. Részletekért lásd az egyes platformok adatvédelmi szabályzatait.",
+        "A DG Interpretation csatornái az @EUInterpreters azonosítóval találhatók meg.",
+        "A tevékenység a kommunikációs célokat szolgálja – kapacitásfejlesztés, többnyelvűség, a tolmácsszakma népszerűsítése. Automatizált döntéshozatal (profilalkotás) nincs."
+      ],
+      "legal": [
+        "Az adatkezelés közérdekű feladat ellátásához vagy közhatalmi jogosítvány gyakorlásához szükséges.",
+        "A Bizottság közösségi média jelenlétének üzemeltetése és a minőségi médiafigyelés a Szerződések és a vonatkozó pénzügyi szabályok alapján közérdekű feladat."
+      ],
+      "data": [
+        "Audiovizuális tartalomban szereplők: a tartalomban lévő adatok (pl. metaadatok – helyszín, létrehozás ideje), hang- és videófelvételek, képmás.",
+        "Csatornákat megtekintők: aggregált, anonimizált profiladatok (pl. földrajzi adatok, aktivitási idő, nyelv) és elköteleződési mutatók (pl. elérés, hozzászólások, érzelmi viszonyulás). Az adatszolgáltatás nem kötelező."
+      ],
+      "retention": [
+        "Az adatokat csak a szükséges ideig őrizzük, jellemzően a közzétételtől számított legfeljebb öt évig. Egyes audiovizuális anyagok tartós megőrzésre kiválaszthatók."
+      ],
+      "security": [
+        "Az elektronikus formában kezelt adatok biztonságos bizottsági szervereken találhatók. Az adatkezelés a (EU, Euratom) 2017/46 határozat előírásai szerint történik.",
+        "A Bizottság megbízottjai szerződéses és titoktartási kötelezettségekkel rendelkeznek a GDPR-nak megfelelően."
+      ],
+      "access": [
+        "Hozzáférést a felelős bizottsági munkatársak és az arra jogosult személyek kapnak a „szükséges ismeret” elve szerint, titoktartási kötelezettséggel.",
+        "A közzétett audiovizuális tartalom a nyilvánosság számára látható; a kapcsolódó személyes adatok nem kerülnek nyilvánosságra. Harmadik félnek csak jogszabályi kötelezettség esetén adjuk át."
+      ],
+      "rights": [
+        "Az (EU) 2018/1725 rendelet III. fejezete szerint joga van a hozzáféréshez, helyesbítéshez, törléshez, az adatkezelés korlátozásához, tiltakozáshoz és – adott esetben – az adathordozhatósághoz.",
+        "Az 5. cikk (1) bekezdés a) pontja szerinti adatkezeléssel szemben saját helyzetére hivatkozva tiltakozhat."
+      ],
+      "contacts": [
+        "Adatkezelő: SCIC.01 Stratégia, Politika és Kommunikáció — scic-euroscic@ec.europa.eu",
+        "A Bizottság adatvédelmi tisztviselője — DATA-PROTECTION-OFFICER@ec.europa.eu",
+        "Európai Adatvédelmi Biztos — edps@edps.europa.eu"
+      ],
+      "moreInfo": [
+        "Az adatvédelmi tisztviselő nyilvántartása: http://ec.europa.eu/dpo-register. Nyilvántartási hivatkozás: DPR-EC-08666. Verzió: 2024. február."
+      ]
+    }
+  },
+  "cookie": {
+    "message": "Ez a weboldal sütiket használ a jobb felhasználói élmény érdekében.",
+    "accept": "Elfogadom",
+    "privacy": "Adatvédelmi nyilatkozat"
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva"
+  },
+  "common": {
+    "loading": "Betöltés...",
+    "close": "Bezárás",
+    "next": "Következő",
+    "previous": "Előző",
+    "bookingSubtitle": "Válassza ki a kívánt foglalási felületet, vagy lépjen velünk kapcsolatba személyre szabott segítségért."
+  }
+}

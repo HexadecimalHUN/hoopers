@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "images": "tsx scripts/generate-images.ts",
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "npm run images && next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "next": "15.4.6"
+    "next": "15.4.6",
+    "yet-another-react-lightbox": "^3.15.6",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -22,6 +27,8 @@
     "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.4.6",
-    "@eslint/eslintrc": "^3"
+    "@eslint/eslintrc": "^3",
+    "sharp": "^0.33.2",
+    "tsx": "^4.7.0"
   }
 }

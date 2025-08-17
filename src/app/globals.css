@@ -1,26 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Mocha Mousse Palette */
+  --color-cannoli-cream: #f5f1e8;
+  --color-baltic-amber: #8b5a2b;
+  --color-chanterelle: #b08d6b;
+  --color-mocha-mousse: #a68b73;
+  --color-sirocco: #c9a876;
+  --color-safari: #d4c4a8;
+  --color-cream-tan: #e8dcc0;
+  --color-chocolate-martini: #5d4037;
+  
+  /* Semantic tokens */
+  --background: var(--color-cannoli-cream);
+  --foreground: var(--color-chocolate-martini);
+  --primary: var(--color-mocha-mousse);
+  --primary-hover: var(--color-baltic-amber);
+  --secondary: var(--color-chanterelle);
+  --accent: var(--color-sirocco);
+  --surface: var(--color-cream-tan);
+  --surface-elevated: var(--color-safari);
+  --surface-glass: rgba(228, 220, 192, 0.8);
+  --border: var(--color-chanterelle);
+  --text-muted: var(--color-baltic-amber);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-surface: var(--surface);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-glass: var(--surface-glass);
+  --color-border: var(--border);
+  --color-text-muted: var(--text-muted);
+  
+  /* Direct color utilities */
+  --color-cannoli-cream: #f5f1e8;
+  --color-baltic-amber: #8b5a2b;
+  --color-chanterelle: #b08d6b;
+  --color-mocha-mousse: #a68b73;
+  --color-sirocco: #c9a876;
+  --color-safari: #d4c4a8;
+  --color-cream-tan: #e8dcc0;
+  --color-chocolate-martini: #5d4037;
+  
+  --font-heading: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--foreground);
+}
+
+::selection {
+  background: var(--primary);
+  color: var(--background);
+}
+
+/* Color utilities */
+.bg-cannoli-cream { background-color: var(--color-cannoli-cream); }
+.bg-baltic-amber { background-color: var(--color-baltic-amber); }
+.bg-chanterelle { background-color: var(--color-chanterelle); }
+.bg-mocha-mousse { background-color: var(--color-mocha-mousse); }
+.bg-sirocco { background-color: var(--color-sirocco); }
+.bg-safari { background-color: var(--color-safari); }
+.bg-cream-tan { background-color: var(--color-cream-tan); }
+.bg-chocolate-martini { background-color: var(--color-chocolate-martini); }
+
+.text-cannoli-cream { color: var(--color-cannoli-cream); }
+.text-baltic-amber { color: var(--color-baltic-amber); }
+.text-chanterelle { color: var(--color-chanterelle); }
+.text-mocha-mousse { color: var(--color-mocha-mousse); }
+.text-sirocco { color: var(--color-sirocco); }
+.text-safari { color: var(--color-safari); }
+.text-cream-tan { color: var(--color-cream-tan); }
+.text-chocolate-martini { color: var(--color-chocolate-martini); }
+
+/* Focus styles */
+.focus-ring {
+  @apply focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+}
+
+/* Nav link underline animation */
+.nav-link {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: var(--primary);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+/* Text shadow utilities */
+.text-shadow-sm {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-shadow-md {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.text-shadow-xl {
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+/* Glass morphism utilities */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+}
+
+.glass-surface {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+/* Enhanced button styles */
+.btn-glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-glass:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary-hero {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+  box-shadow: 0 4px 15px rgba(166, 139, 115, 0.4);
+  transition: all 0.3s ease;
+}
+
+.btn-primary-hero:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(166, 139, 115, 0.6);
+}
+
+/* Animation utilities */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out both;
+}
+
+.animate-delay-100 {
+  animation-delay: 0.1s;
+}
+
+.animate-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animate-delay-300 {
+  animation-delay: 0.3s;
+}
+
+/* Responsive typography */
+.text-hero {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+
+.text-hero-subtitle {
+  font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+  font-weight: 500;
+  line-height: 1.4;
 }

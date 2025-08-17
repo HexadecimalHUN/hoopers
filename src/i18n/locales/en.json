@@ -1,0 +1,202 @@
+{
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "gallery": "Gallery",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to Hoopers Guesthouse",
+    "title1": "Welcome to",
+    "title2": "Hoopers",
+    "title3": "Guesthouse",
+    "badge": "Premium Guesthouse in Eger",
+    "availableNow": "Available Now",
+    "subtitle": "Experience the magical atmosphere of Eger in our modern guesthouse",
+    "bookingCom": "Book on Booking.com",
+    "szallasHu": "Book on Szallas.hu",
+    "callUs": "Call Us",
+    "emailUs": "Email Us",
+    "guestRating": "Guest Rating"
+  },
+  "rooms": {
+    "title": "Our Rooms",
+    "subtitle": "Choose from our comfortable rooms",
+    "room1": {
+      "name": "2+1 Bed Room",
+      "description": "Perfect for small families or groups of friends"
+    },
+    "room2": {
+      "name": "2+1+1 Bed Room",
+      "description": "Spacious room for larger families"
+    },
+    "room3": {
+      "name": "Family Room",
+      "description": "Comfortable and spacious family room"
+    },
+    "details": {
+      "overviewTitle": "Overview",
+      "capacity": "Capacity",
+      "beds": "Beds",
+      "beds_1s_1d": "1 single bed + 1 large double bed",
+      "beds_2s_1d": "2 single beds + 1 large double bed",
+      "beds_3s_1d": "3 single beds + 1 large double bed",
+      "size": "Size",
+      "sizeUnitM2": "m²",
+      "bathroom": "Bathroom",
+      "privateBathroom": "Private ensuite",
+      "amenitiesTitle": "Amenities",
+      "wifi": "Free Wi‑Fi",
+      "airConditioning": "Air conditioning",
+      "tv": "TV",
+      "kitchenette": "Kitchenette",
+      "sharedKitchen": "Shared kitchen",
+      "shower": "Bath or shower",
+      "coffeeTea": "Tea/Coffee maker",
+      "privateEntrance": "Private entrance",
+      "wardrobe": "Wardrobe or closet",
+      "heating": "Heating",
+      "soundproofing": "Soundproofing",
+      "flatScreenTv": "Flat-screen TV",
+      "innerCourtyardView": "Inner courtyard view",
+      "freeCot": "Free cot on request",
+      "terrace": "Terrace",
+      "bookNow": "Book Now",
+      "galleryTitle": "Gallery"
+    },
+    "viewRoom": "View Room",
+    "features": "Features",
+    "bookNow": "Book Now",
+    "viewAllRooms": "View All Rooms"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Explore the beauty of our guesthouse and surroundings",
+    "viewAll": "View All Photos",
+    "exterior": "Exterior",
+    "extra": "Additional Photos",
+    "all": "All"
+  },
+  "about": {
+    "history": {
+      "title": "History, Heritage, and Our Eger Connection",
+      "paragraph1": "Since January 2020, we’ve welcomed guests with thoughtfully designed rooms, hotel‑quality beds, and warm, heartfelt hospitality. Our guesthouse has 6 rooms, each with a private shower bathroom and WC, accommodating up to 20 guests in comfort.",
+      "paragraph2": "Across two floors, four rooms include one double bed and one single bed; two family rooms include one double bed and two single beds (the larger is extendable). Both floors feature well‑equipped kitchens, and the upper floor offers a shared dining area ideal for groups. Every room has its own fridge and flat‑screen TV; most are air‑conditioned; complimentary Wi‑Fi covers the entire house."
+    },
+    "heritage": { "title": "Heritage", "description": "Rooted in tradition, shaped by time." },
+    "connection": { "title": "Connection with Eger", "description": "Historic Old Town 800 m (5‑minute walk); Szépasszonyvölgy 1.2 km — the city’s heart within easy reach." },
+    "wine": { "title": "Wine Culture", "description": "The mood of Szépasszonyvölgy and Eger’s famed wines enrich every stay." },
+    "location": { "title": "Comfort & Amenities", "description": "Free parking in front of the building; fridge and flat‑screen TV in every room; well‑equipped kitchens and shared dining; free Wi‑Fi; air‑conditioning in most rooms." },
+    "gallery": { "title": "Moments Around Hoopers" },
+    "cta": { "title": "Ready to experience Eger with us?", "viewRooms": "View Rooms", "contactUs": "Contact Us" },
+    "bookNow": { "title": "Book your stay now" }
+  ,
+    "title": "About Us",
+    "subtitle": "Learn our story",
+    "readMore": "Read More",
+    "features": {
+      "rooms": {
+        "title": "Comfortable Rooms",
+        "description": "Thoughtfully designed spaces with modern amenities and cozy details."
+      },
+      "location": {
+        "title": "Prime Location",
+        "description": "Stay steps from Eger’s historic sights, cafés, and thermal baths."
+      },
+      "service": {
+        "title": "Excellent Service",
+        "description": "Friendly, attentive hospitality tailored to your stay."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "addressValue": "Bem tábornok tér 2, Eger",
+    "phoneValue": "+36 30 925 3760",
+    "emailValue": "hoopersguesthouse@gmail.com"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Version: February 2024",
+    "toc": {
+      "intro": "Introduction",
+      "whyHow": "Why and how do we process your personal data?",
+      "legal": "On what legal ground(s) do we process your personal data?",
+      "data": "Which personal data do we collect and further process?",
+      "retention": "How long do we keep your personal data?",
+      "security": "How do we protect and safeguard your personal data?",
+      "access": "Who has access to your personal data and to whom is it disclosed?",
+      "rights": "What are your rights and how can you exercise them?",
+      "contacts": "Contact information",
+      "moreInfo": "Where to find more detailed information?"
+    },
+    "sections": {
+      "intro": [
+        "This privacy statement provides information about the processing and the protection of your personal data.",
+        "Processing operation: Social Media Activities in DG Interpretation",
+        "Data Controller: DG Interpretation, Unit SCIC.01 “Strategy, Policy and Communication”",
+        "Record reference: DPR-EC-08666",
+        "The European Commission is committed to protecting your personal data and respecting your privacy pursuant to Regulation (EU) 2018/1725.",
+        "This privacy statement explains why your data is processed, how it is collected and protected, how it is used, and what rights you have, including contacts for exercising those rights.",
+        "The information presented here concerns “Social Media activities in DG Interpretation” undertaken by Unit SCIC.01."
+      ],
+      "whyHow": [
+        "Unit SCIC.01 uses personal information to run online communication on widely used corporate social media channels and to analyse how users react to published information.",
+        "Processing follows users' voluntary registration with the platforms; aggregated statistics and publicly available posts are analysed in line with the platforms' terms. See each platform's own privacy policy for details.",
+        "DG Interpretation's channels are identified by the handle @EUInterpreters.",
+        "Activities support communication goals such as capacity development, multilingualism and the interpreting profession. No automated decision-making, including profiling, is carried out."
+      ],
+      "legal": [
+        "Processing is necessary for tasks carried out in the public interest or in the exercise of official authority vested in the EU institutions.",
+        "Operating and maintaining the Commission's social media presence and conducting qualitative media monitoring are tasks carried out in the public interest as mandated by the Treaties and applicable financial rules."
+      ],
+      "data": [
+        "From people appearing in audio-visual content: information contained in the content (e.g., metadata such as location or creation date), voice and video recordings, and images.",
+        "From people accessing the corporate channels: aggregated and anonymised profile data (e.g., geography, activity time, language) and engagement metrics (e.g., reach, comments, sentiment). Providing data is not mandatory."
+      ],
+      "retention": [
+        "Personal data are kept only as long as necessary for the purpose, generally up to five years from publication. Some audio-visual material may be selected for permanent preservation."
+      ],
+      "security": [
+        "All personal data in electronic format are stored on secure Commission servers. Processing follows the Commission Decision (EU, Euratom) 2017/46 on the security of communication and information systems.",
+        "Commission contractors are bound by contractual clauses and confidentiality obligations derived from GDPR as transposed in Member States."
+      ],
+      "access": [
+        "Access is limited to Commission staff responsible for this processing and other authorised staff on a strictly need-to-know basis, who are bound by confidentiality obligations.",
+        "Published audio-visual material on corporate channels is visible to the public; related personal data are not disclosed. Information is not provided to third parties unless required by law."
+      ],
+      "rights": [
+        "Under Chapter III of Regulation (EU) 2018/1725, you have the rights of access, rectification, erasure, restriction, objection and data portability (where applicable).",
+        "You may object to processing carried out under Article 5(1)(a) on grounds relating to your particular situation."
+      ],
+      "contacts": [
+        "Data Controller: SCIC.01 Strategy, Policy and Communication — scic-euroscic@ec.europa.eu",
+        "Data Protection Officer of the Commission — DATA-PROTECTION-OFFICER@ec.europa.eu",
+        "European Data Protection Supervisor — edps@edps.europa.eu"
+      ],
+      "moreInfo": [
+        "The Commission Data Protection Officer publishes the register of processing operations at http://ec.europa.eu/dpo-register. Record reference: DPR-EC-08666. Version: February 2024."
+      ]
+    }
+  },
+  "cookie": {
+    "message": "This website uses cookies to improve your experience.",
+    "accept": "Accept",
+    "privacy": "Privacy Policy"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "common": {
+    "loading": "Loading...",
+    "close": "Close",
+    "next": "Next",
+    "previous": "Previous",
+    "bookingSubtitle": "Choose your preferred booking platform or contact us directly for personalized assistance."
+  }
+}

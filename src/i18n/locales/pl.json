@@ -1,0 +1,201 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "rooms": "Pokoje",
+    "gallery": "Galeria",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Witamy w pensjonacie Hoopers",
+    "title1": "Witamy w",
+    "title2": "Hoopers",
+    "title3": "Pensjonacie",
+    "badge": "Premium pensjonat w Eger",
+    "availableNow": "Dostępne teraz",
+    "subtitle": "Doświadcz magicznej atmosfery Eger w naszym nowoczesnym pensjonacie",
+    "bookingCom": "Rezerwuj na Booking.com",
+    "szallasHu": "Rezerwuj na Szallas.hu",
+    "callUs": "Zadzwoń do nas",
+    "emailUs": "Napisz do nas",
+    "guestRating": "Ocena gości"
+  },
+  "rooms": {
+    "title": "Nasze pokoje",
+    "subtitle": "Wybierz spośród naszych komfortowych pokoi",
+    "room1": {
+      "name": "Pokój 2+1",
+      "description": "Idealny dla małych rodzin lub grup przyjaciół"
+    },
+    "room2": {
+      "name": "Pokój 2+1+1",
+      "description": "Przestronny pokój dla większych rodzin"
+    },
+    "room3": {
+      "name": "Pokój rodzinny",
+      "description": "Wygodny i przestronny pokój rodzinny"
+    },
+    "details": {
+      "overviewTitle": "Przegląd",
+      "capacity": "Liczba miejsc",
+      "beds": "Łóżka",
+      "beds_1s_1d": "1 łóżko pojedyncze + 1 duże łóżko podwójne",
+      "beds_2s_1d": "2 łóżka pojedyncze + 1 duże łóżko podwójne",
+      "beds_3s_1d": "3 łóżka pojedyncze + 1 duże łóżko podwójne",
+      "size": "Powierzchnia",
+      "sizeUnitM2": "m²",
+      "bathroom": "Łazienka",
+      "privateBathroom": "Prywatna łazienka",
+      "amenitiesTitle": "Udogodnienia",
+      "wifi": "Bezpłatne Wi‑Fi",
+      "airConditioning": "Klimatyzacja",
+      "tv": "TV",
+      "kitchenette": "Aneks kuchenny",
+      "sharedKitchen": "Wspólna kuchnia",
+      "shower": "Wanna lub prysznic",
+      "coffeeTea": "Zestaw do kawy i herbaty",
+      "privateEntrance": "Prywatne wejście",
+      "wardrobe": "Szafa/garderoba",
+      "heating": "Ogrzewanie",
+      "soundproofing": "Wyciszenie",
+      "flatScreenTv": "Telewizor z płaskim ekranem",
+      "innerCourtyardView": "Widok na dziedziniec",
+      "freeCot": "Darmowe łóżeczko na życzenie",
+      "terrace": "Taras",
+      "bookNow": "Rezerwuj",
+      "galleryTitle": "Galeria"
+    },
+    "viewRoom": "Zobacz pokój",
+    "features": "Wyposażenie",
+    "bookNow": "Rezerwuj teraz",
+    "viewAllRooms": "Zobacz wszystkie pokoje"
+  },
+  "gallery": {
+    "title": "Galeria",
+    "subtitle": "Odkryj piękno naszego pensjonatu i okolicy",
+    "viewAll": "Zobacz wszystkie zdjęcia",
+    "exterior": "Zewnętrzne",
+    "extra": "Dodatkowe zdjęcia",
+    "all": "Wszystkie"
+  },
+  "about": {
+    "history": {
+      "title": "Historia, dziedzictwo i nasz związek z Eger",
+      "paragraph1": "Od brukowanych uliczek po przytulne dziedzińce — charakter Eger żyje w naszych murach.",
+      "paragraph2": "Cenimy dziedzictwo miasta — barokową architekturę, tradycję term i słynne wina." 
+    },
+    "heritage": { "title": "Dziedzictwo", "description": "Zakorzenione w tradycji, ukształtowane przez czas." },
+    "connection": { "title": "Związek z Eger", "description": "Głęboka więź z historycznym sercem miasta." },
+    "wine": { "title": "Kultura wina", "description": "Zainspirowana Doliną Pięknej Pani." },
+    "location": { "title": "Zabytki", "description": "Kilka kroków od atrakcji i historii." },
+    "gallery": { "title": "Chwile wokół Hoopers" },
+    "cta": { "title": "Gotowy na Eger z nami?", "viewRooms": "Zobacz pokoje", "contactUs": "Kontakt" },
+    "bookNow": { "title": "Zarezerwuj swój pobyt teraz" },
+    "title": "O nas",
+    "subtitle": "Poznaj naszą historię",
+    "readMore": "Czytaj więcej",
+    "features": {
+      "rooms": {
+        "title": "Komfortowe pokoje",
+        "description": "Przemyślane przestrzenie z nowoczesnymi udogodnieniami i przytulnymi detalami."
+      },
+      "location": {
+        "title": "Świetna lokalizacja",
+        "description": "Kilka kroków od historycznych atrakcji Eger, kawiarni i term."
+      },
+      "service": {
+        "title": "Doskonała obsługa",
+        "description": "Przyjazna, uważna gościnność dopasowana do Twojego pobytu."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Skontaktuj się z nami",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "addressValue": "Bem tábornok tér 2, Eger",
+    "phoneValue": "+36 30 925 3760",
+    "emailValue": "hoopersguesthouse@gmail.com"
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "updated": "Wersja: luty 2024",
+    "toc": {
+      "intro": "Wprowadzenie",
+      "whyHow": "Dlaczego i w jaki sposób przetwarzamy Twoje dane osobowe?",
+      "legal": "Na jakiej podstawie prawnej przetwarzamy Twoje dane osobowe?",
+      "data": "Jakie dane osobowe zbieramy i dalej przetwarzamy?",
+      "retention": "Jak długo przechowujemy Twoje dane osobowe?",
+      "security": "Jak chronimy i zabezpieczamy Twoje dane osobowe?",
+      "access": "Kto ma dostęp do Twoich danych osobowych i komu są one ujawniane?",
+      "rights": "Jakie masz prawa i jak możesz z nich skorzystać?",
+      "contacts": "Informacje kontaktowe",
+      "moreInfo": "Gdzie znaleźć bardziej szczegółowe informacje?"
+    },
+    "sections": {
+      "intro": [
+        "Niniejsza klauzula informuje o przetwarzaniu i ochronie Twoich danych osobowych.",
+        "Operacja przetwarzania: działania w mediach społecznościowych w DG Interpretation",
+        "Administrator: DG Interpretation, Jednostka SCIC.01 „Strategia, Polityka i Komunikacja”",
+        "Numer referencyjny: DPR-EC-08666",
+        "Komisja Europejska chroni Twoje dane osobowe zgodnie z rozporządzeniem (UE) 2018/1725.",
+        "Oświadczenie wyjaśnia cel, sposób zbierania, wykorzystania i ochrony danych oraz Twoje prawa i dane kontaktowe.",
+        "Informacje dotyczą przetwarzania „Działań w mediach społecznościowych w DG Interpretation” prowadzonego przez jednostkę SCIC.01."
+      ],
+      "whyHow": [
+        "SCIC.01 wykorzystuje dane osobowe do prowadzenia komunikacji online na popularnych kanałach mediów społecznościowych oraz do analizy reakcji użytkowników.",
+        "Przetwarzanie następuje po dobrowolnej rejestracji użytkowników; analizowane są zagregowane statystyki i publiczne wpisy zgodnie z regulaminem platform. Zapoznaj się z polityką prywatności każdej platformy.",
+        "Kanały DG Interpretation oznaczone są uchwytem @EUInterpreters.",
+        "Działania wspierają cele komunikacyjne — rozwój kompetencji, wielojęzyczność i zawód tłumacza. Nie stosujemy zautomatyzowanego podejmowania decyzji, w tym profilowania."
+      ],
+      "legal": [
+        "Przetwarzanie jest niezbędne do wykonania zadania realizowanego w interesie publicznym lub w ramach sprawowania władzy publicznej.",
+        "Prowadzenie obecności Komisji w mediach społecznościowych i jakościowy monitoring mediów to zadania realizowane w interesie publicznym na podstawie Traktatów i odpowiednich przepisów finansowych."
+      ],
+      "data": [
+        "Osoby występujące w treściach audiowizualnych: dane zawarte w treści (np. metadane — lokalizacja, data utworzenia), nagrania głosu i obrazu, wizerunek.",
+        "Osoby odwiedzające kanały: zagregowane, zanonimizowane dane profilowe (np. geografia, czas aktywności, język) oraz wskaźniki zaangażowania (zasięg, komentarze, sentyment). Podanie danych nie jest obowiązkowe."
+      ],
+      "retention": [
+        "Dane osobowe przechowujemy tylko tak długo, jak to konieczne do realizacji celu, zwykle do pięciu lat od publikacji. Niektóre materiały audiowizualne mogą być archiwizowane na stałe."
+      ],
+      "security": [
+        "Wszelkie dane w formie elektronicznej są przechowywane na bezpiecznych serwerach Komisji. Przetwarzanie odbywa się zgodnie z decyzją (UE, Euratom) 2017/46.",
+        "Podmioty przetwarzające działające na rzecz Komisji są związane klauzulami umownymi i obowiązkiem zachowania poufności wynikającymi z RODO."
+      ],
+      "access": [
+        "Dostęp mają wyłącznie pracownicy Komisji odpowiedzialni za operację oraz upoważnieni pracownicy zgodnie z zasadą niezbędnej wiedzy; obowiązuje ich poufność.",
+        "Opublikowane materiały audiowizualne są publicznie dostępne; związane dane osobowe nie są ujawniane. Informacje są przekazywane osobom trzecim tylko, gdy wymaga tego prawo."
+      ],
+      "rights": [
+        "Na mocy rozdziału III rozporządzenia (UE) 2018/1725 przysługują Ci prawa: dostępu, sprostowania, usunięcia, ograniczenia, sprzeciwu i przenoszenia danych (w stosownych przypadkach).",
+        "Możesz wnieść sprzeciw wobec przetwarzania na podstawie art. 5 ust. 1 lit. a ze względu na swoją szczególną sytuację."
+      ],
+      "contacts": [
+        "Administrator: SCIC.01 Strategia, Polityka i Komunikacja — scic-euroscic@ec.europa.eu",
+        "Inspektor ochrony danych Komisji — DATA-PROTECTION-OFFICER@ec.europa.eu",
+        "Europejski Inspektor Ochrony Danych — edps@edps.europa.eu"
+      ],
+      "moreInfo": [
+        "Rejestr operacji przetwarzania prowadzony przez IOD: http://ec.europa.eu/dpo-register. Nr ref.: DPR-EC-08666. Wersja: luty 2024."
+      ]
+    }
+  },
+  "cookie": {
+    "message": "Ta strona używa plików cookie, aby poprawić Twoje doświadczenia.",
+    "accept": "Akceptuj",
+    "privacy": "Polityka prywatności"
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "close": "Zamknij",
+    "next": "Następny",
+    "previous": "Poprzedni",
+    "bookingSubtitle": "Wybierz preferowaną platformę rezerwacji lub skontaktuj się z nami po spersonalizowaną pomoc."
+  }
+}
