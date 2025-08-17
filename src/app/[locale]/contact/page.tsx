@@ -17,7 +17,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
   }
   const dictionary = await getDictionary(locale as Locale);
 
-  const address = 'Bem tábornok tér 2, Eger, Hungary';
+  const address = 'Bem Tábornok tér 2, Eger, Hungary';
   // Default to Eger center if not specified
   const lat = Number(process.env.NEXT_PUBLIC_CONTACT_LAT ?? 47.9025);
   const lng = Number(process.env.NEXT_PUBLIC_CONTACT_LNG ?? 20.3772);
