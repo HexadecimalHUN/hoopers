@@ -12,12 +12,24 @@ import { useInView } from '@/lib/useInView';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
-interface RoomsPreviewProps {
-  locale: Locale;
-  dictionary: any;
+
+type RoomKey = 'room1' | 'room2' | 'room3';
+
+interface RoomsDictionary {
+  rooms?: ({
+    title?: string;
+    subtitle?: string;
+    viewRoom?: string;
+    viewAllRooms?: string;
+  } & Partial<Record<RoomKey, { name?: string; description?: string }>>);
 }
 
-const roomsData = [
+interface RoomsPreviewProps {
+  locale: Locale;
+  dictionary: RoomsDictionary;
+}
+
+const roomsData: { slug: RoomKey; image: string; key: RoomKey }[] = [
   {
     slug: 'room1',
     image: '/room1/ATD_6261.jpg',
@@ -69,7 +81,7 @@ export function RoomsPreview({ locale, dictionary }: RoomsPreviewProps) {
               <div 
                 key={room.slug}
                 style={{ transitionDelay: delay }}
-                className={`group bg-background rounded-xl overflow-hidden shadow-md ring-1 ring-black/5 transition-all duration-500 motion-safe:opacity-0 motion-safe:translate-y-6 ${gridInView ? 'motion-safe:opacity-100 motion-safe:translate-y-0' : ''} hover:shadow-xl hover:ring-primary/30`}
+                className={`group bg-background rounded-xl overflow-hidden shadow-md ring-1 ring-black/5 transition-all duration-500 motion-safe:opacity-0 motion-safe:translate-y-6 ${gridInView ? 'motion-safe:opacity-100 motion-safe:translate-y-0' : ''} hover:shadow-xl hover:ring-primary/30 flex flex-col h-full`}
               >
                 <div className="relative h-56 md:h-72 lg:h-80 overflow-hidden">
                   <Image
@@ -82,7 +94,7 @@ export function RoomsPreview({ locale, dictionary }: RoomsPreviewProps) {
                   <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/15 to-transparent"></div>
                 </div>
                 
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-1">
                   <Heading level={3} size="lg" className="mb-3 tracking-tight">
                     {dictionary.rooms?.[room.key]?.name || `Room ${room.slug}`}
                   </Heading>
@@ -91,7 +103,7 @@ export function RoomsPreview({ locale, dictionary }: RoomsPreviewProps) {
                     {dictionary.rooms?.[room.key]?.description || `Comfortable accommodation in ${room.slug}`}
                   </Text>
 
-                  <Link href={`/${locale}/rooms/${room.slug}`} className="block">
+                  <Link href={`/${locale}/rooms/${room.slug}`} className="block mt-auto">
                     <Button size="md" className="w-full bg-gradient-to-r from-primary to-chocolate-martini text-white hover:from-primary-hover hover:to-chocolate-martini/90 border border-white/10 gap-2">
                       {dictionary.rooms?.viewRoom || 'View Room'}
                       <FontAwesomeIcon icon={faChevronRight} className="text-white/90" />

@@ -17,8 +17,6 @@ export default async function ContactPage({ params }: ContactPageProps) {
   }
   const dictionary = await getDictionary(locale as Locale);
 
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
-  const mapId = process.env.NEXT_PUBLIC_GOOGLE_MAP_ID;
   const address = 'Bem tábornok tér 2, Eger, Hungary';
   // Default to Eger center if not specified
   const lat = Number(process.env.NEXT_PUBLIC_CONTACT_LAT ?? 47.9025);
@@ -31,7 +29,7 @@ export default async function ContactPage({ params }: ContactPageProps) {
 
       <Section padding="xl">
         <div className="max-w-5xl mx-auto">
-          <Map lat={lat} lng={lng} zoom={15} apiKey={apiKey} address={address} mapId={mapId} />
+          <Map lat={lat} lng={lng} zoom={15} address={address} />
         </div>
       </Section>
     </>
